@@ -8,8 +8,7 @@ import pytz
 
 
 application = Flask(__name__)
-app = application
-CORS(app)
+CORS(application)
 
 def get_slots(x, y, wallet, auth):
         headers = {
@@ -217,4 +216,4 @@ def colheita(user, x, y):
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8080)
+    application.run(debug=True, port=8080)
