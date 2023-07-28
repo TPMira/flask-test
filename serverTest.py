@@ -7,7 +7,8 @@ import pytz
 
 
 
-app = Flask(__name__)
+application = Flask(__name__)
+app = application
 CORS(app)
 
 def get_slots(x, y, wallet, auth):
@@ -209,7 +210,7 @@ def verificar_colheita(user, x, y):
     return resultados
      
 
-@app.route(f'/api/colheita/<string:user>/<int:x>,<int:y>')
+@application.route(f'/api/colheita/<string:user>/<int:x>,<int:y>')
 def colheita(user, x, y):
     resultados = verificar_colheita(user, x, y)
     return jsonify(resultados)
