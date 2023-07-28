@@ -209,6 +209,10 @@ def verificar_colheita(user, x, y):
     return resultados
      
 
+@application.route('/')
+def healthcheck():
+    return {"healthcheck": "ok"}     
+
 @application.route(f'/api/colheita/<string:user>/<int:x>,<int:y>')
 def colheita(user, x, y):
     resultados = verificar_colheita(user, x, y)
