@@ -58,6 +58,9 @@ def verificar_colheita(user, x, y):
     elif user=='sakamoto':
         auth = 'bearerHeader eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwdWJsaWNBZGRyZXNzIjoiMHhhMWY5NGUyMWM3N2I2NmYzYjcwMDI3MDM3YTEzZmZmNmFlMzNlZDA3IiwiaWF0IjoxNjg1NDA0NDA3fQ.AX_hgeSqiDBtNTgV2Pm6AZHJAjCiVWD5ochydUCcJnM'
         wallet = '0xa1f94e21c77b66f3b70027037a13fff6ae33ed07'
+    elif user=='th10':
+        auth = 'bearerHeader eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwdWJsaWNBZGRyZXNzIjoiMHg1NTM1NTQwNzNiYTM5MjA3YTBhMmRlODNiZTRjMGQ0MzU5ZDUxZGU0IiwiaWF0IjoxNjg2MTk0OTAzfQ.5WAovbJbS_soQa-EdBwZTVuPXqIjipwbzcBqvEuwMO4'
+        wallet = '0x553554073ba39207a0a2de83be4c0d4359d51de4'
     elif user == 'shmervz':
         auth = 'bearerHeader eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwdWJsaWNBZGRyZXNzIjoiMHgyZWYxOTAzN2ExOTE5NzU4OGEyZTcwMWViNzlmYTc5MmZmMGVhZGYwIiwiaWF0IjoxNjg1MTEwNTMyfQ.LsC4T-b1I_1-yBcjj7yN9IoeXmT7gKOrvq4XbbAY9rc'
         wallet = '0x2ef19037a19197588a2e701eb79fa792ff0eadf0'
